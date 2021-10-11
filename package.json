@@ -1,0 +1,20 @@
+{
+  "name": "file-upload-1234",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "USE_NPM_INSTALL=true"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "",
+    "http": "",
+    "mongoose": "^5.12.12",
+    "path": "^0.12.7",
+    "twilio": "^3.69.0"
+  }
+}
